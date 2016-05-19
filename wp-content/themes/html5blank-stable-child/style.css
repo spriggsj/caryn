@@ -11,3 +11,12 @@
 	License: MIT
 	License URI: http://opensource.org/licenses/mit-license.php
 */
+.hero-banner{
+	background: url('http://cdn-s3.si.com/s3fs-public/styles/si_gallery_slide/public/2015/01/28/boston-marathon-finish-line-snow-shoveler.jpg?itok=cahQYmgF')no-repeat fixed;
+	height:525px;
+	background-size: cover;
+
+}
+.recent-post{
+	background-color: #79CDCD;
+}
