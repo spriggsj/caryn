@@ -18,5 +18,30 @@
 
 }
 .recent-post{
-	background-color: #79CDCD;
+	/*background-color: #79CDCD;*/
+	background: url('img/shoe.jpg')no-repeat fixed;
+	height:725px;
+	background-size: cover;
+}
+
+.intro{
+	color:#fff;
+}
+.intro h1{
+	text-align: center;
+	font-size: 3em;
+	padding-top: 320px;
+}
+
+.code-banner{
+	background: url('img/woman.jpg')no-repeat fixed;
+	height:525px;
+	background-size: cover;
+
+}
+.life-banner{
+	/*background: url('img/.jpg')no-repeat fixed;*/
+	height:525px;
+	background-size: cover;
+
 }
