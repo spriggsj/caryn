@@ -246,6 +246,27 @@ Video 7 - One-Click Installer
 11. The "Basic" section of the "Options" admin screen
 
 == Changelog ==
+= 2.9.5 =
+- Field filtering update
+
+= 2.9.4 =
+- Fixed an error with user sorting
+
+= 2.9.3 =
+- Fixed an error where full page restriction wasn't displayed for posts
+
+= 2.9.2 =
+- Updated another button missing text
+
+= 2.9.1 =
+- Fixed an error where the "Confirm Forgot Password" submit button was blank
+
+= 2.9.0 =
+- Changed the "Create WordPress Users" feature so that WP usernames are set to emails
+- Added in the FEUP user data to the WP "Users" page if that option is selected
+- Added in a new field type for labels
+- Added in a "required" symbol for fields which are required
+
 = 2.8.7 =
 - Fixed an error where Facebook emails weren't being collected anymore after a Facebook API update
 

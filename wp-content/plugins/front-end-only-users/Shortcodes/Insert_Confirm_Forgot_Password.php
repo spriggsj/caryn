@@ -6,17 +6,6 @@ function Insert_Confirm_Forgot_Password($atts) {
 	$Custom_CSS = get_option("EWD_FEUP_Custom_CSS");	
 	$Create_WordPress_Users = get_option("EWD_FEUP_Create_WordPress_Users");
 
-	$feup_Label_Change_Password =  get_option("EWD_FEUP_Label_Change_Password");
-	if ($feup_Label_Change_Password == "") {$feup_Label_Change_Password = $submit_text;}
-	$feup_Label_Email =  get_option("EWD_FEUP_Label_Email");
-	if ($feup_Label_Email == "") {$feup_Label_Email = __("Email", 'EWD_FEUP');}	
-	$feup_Label_Reset_Code =  get_option("EWD_FEUP_Label_Reset_Code");
-	if ($feup_Label_Reset_Code == "") {$feup_Label_Reset_Code = __("Reset Code", 'EWD_FEUP');}
-	$feup_Label_Password =  get_option("EWD_FEUP_Label_Password");
-	if ($feup_Label_Password == "") {$feup_Label_Password = __("Password", 'EWD_FEUP');}
-	$feup_Label_Repeat_Password = get_option("EWD_FEUP_Label_Repeat_Password");
-	if ($feup_Label_Repeat_Password == "") {$feup_Label_Repeat_Password = __("Repeat Password", 'EWD_FEUP');}
-
 	$CheckCookie = CheckLoginCookie();
 	$Salt = get_option("EWD_FEUP_Hash_Salt");
 	$Time = time();
@@ -33,6 +22,17 @@ function Insert_Confirm_Forgot_Password($atts) {
 			$atts
 		)
 	);
+
+	$feup_Label_Change_Password =  get_option("EWD_FEUP_Label_Change_Password");
+	if ($feup_Label_Change_Password == "") {$feup_Label_Change_Password = $submit_text;}
+	$feup_Label_Email =  get_option("EWD_FEUP_Label_Email");
+	if ($feup_Label_Email == "") {$feup_Label_Email = __("Email", 'EWD_FEUP');}	
+	$feup_Label_Reset_Code =  get_option("EWD_FEUP_Label_Reset_Code");
+	if ($feup_Label_Reset_Code == "") {$feup_Label_Reset_Code = __("Reset Code", 'EWD_FEUP');}
+	$feup_Label_Password =  get_option("EWD_FEUP_Label_Password");
+	if ($feup_Label_Password == "") {$feup_Label_Password = __("Password", 'EWD_FEUP');}
+	$feup_Label_Repeat_Password = get_option("EWD_FEUP_Label_Repeat_Password");
+	if ($feup_Label_Repeat_Password == "") {$feup_Label_Repeat_Password = __("Repeat Password", 'EWD_FEUP');}
 
 	if ($include_wordpress == "") {$include_wordpress = $Create_WordPress_Users;}
 

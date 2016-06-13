@@ -26,7 +26,7 @@ function js_run_custom_post(){
 		],
 			'public' => true,
 			'has_archive' => true,
-			'menu_icon' => 'dashicons-heart',
+			'menu_icon' => 'dashicons-universal-access',
 			'rewrite' => array('slug' => 'run'),
 			'publicly_queryable' => true,
 			'query_var' => true,
